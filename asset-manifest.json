@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ediblePlants/static/css/main.71209bda.chunk.css",
+    "main.js": "/ediblePlants/static/js/main.642b7ea7.chunk.js",
+    "main.js.map": "/ediblePlants/static/js/main.642b7ea7.chunk.js.map",
+    "runtime-main.js": "/ediblePlants/static/js/runtime-main.c5189860.js",
+    "runtime-main.js.map": "/ediblePlants/static/js/runtime-main.c5189860.js.map",
+    "static/css/2.46f0bf41.chunk.css": "/ediblePlants/static/css/2.46f0bf41.chunk.css",
+    "static/js/2.de6feca7.chunk.js": "/ediblePlants/static/js/2.de6feca7.chunk.js",
+    "static/js/2.de6feca7.chunk.js.map": "/ediblePlants/static/js/2.de6feca7.chunk.js.map",
+    "index.html": "/ediblePlants/index.html",
+    "precache-manifest.913b10ed0d0527c24f9350adc09df581.js": "/ediblePlants/precache-manifest.913b10ed0d0527c24f9350adc09df581.js",
+    "service-worker.js": "/ediblePlants/service-worker.js",
+    "static/css/2.46f0bf41.chunk.css.map": "/ediblePlants/static/css/2.46f0bf41.chunk.css.map",
+    "static/css/main.71209bda.chunk.css.map": "/ediblePlants/static/css/main.71209bda.chunk.css.map",
+    "static/js/2.de6feca7.chunk.js.LICENSE": "/ediblePlants/static/js/2.de6feca7.chunk.js.LICENSE",
+    "static/media/plant2.svg": "/ediblePlants/static/media/plant2.f212b86f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5189860.js",
+    "static/css/2.46f0bf41.chunk.css",
+    "static/js/2.de6feca7.chunk.js",
+    "static/css/main.71209bda.chunk.css",
+    "static/js/main.642b7ea7.chunk.js"
+  ]
+}
