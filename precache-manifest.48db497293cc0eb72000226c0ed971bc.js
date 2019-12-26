@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "41763b304816f4f970d647846968a4ec",
+    "revision": "1800ccaea7ac4c42a748f747515f4c96",
     "url": "/ediblePlants/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ediblePlants/static/css/2.46f0bf41.chunk.css"
   },
   {
-    "revision": "fd931a0106ca9098d194",
+    "revision": "bbccbc39fee257ed0283",
     "url": "/ediblePlants/static/css/main.71209bda.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ediblePlants/static/js/2.de6feca7.chunk.js.LICENSE"
   },
   {
-    "revision": "fd931a0106ca9098d194",
-    "url": "/ediblePlants/static/js/main.642b7ea7.chunk.js"
+    "revision": "bbccbc39fee257ed0283",
+    "url": "/ediblePlants/static/js/main.02b11429.chunk.js"
   },
   {
     "revision": "15f95216d73eb9bfd604",
