@@ -5,11 +5,18 @@ import logo from './assests/plant2.svg'
 
 
 import AddAPlant from './components/AddAPlant'
+import Description from './components/Description'
+import SinglePlant from './components/Plant'
 
 import './App.css'
 import PlantList from './components/PlantList'
 
+import usePlantList from './hooks/usePlantList'
+
+
 function App() {
+  const plantList = usePlantList();
+
   return (
     <Router>
       <div>
@@ -27,6 +34,7 @@ function App() {
                 <div className="navbar-end">
                   <NavLink className="navbar-item" to='/plants'>Plant List</NavLink>
                   <NavLink className="navbar-item" to='/addPlants'>Add a Plant</NavLink>
+                  <a className="navbar-item" href="https://github.com/rainandbare/ediblePlants/issues">Wish List</a>
                 </div>
             </div>
           </div>
@@ -43,11 +51,12 @@ function App() {
             </div>
           </div>
         </section>
-        <Route path="/plants" component={PlantList}/>
+        <Route exact path="/" component={Description} />
+        <Route path="/plants" render={(props) => <PlantList {...props} plantList={plantList}/>}/>
         <Route path="/addPlants" component={AddAPlant} />
-        {/* <Route path="/wishlist" component={WishList} /> */}
-        <footer class="footer">
-          <div class="content has-text-centered">
+        <Route path="/plant/:id" component={SinglePlant}/>
+        <footer className="footer">
+          <div className="content has-text-centered">
             <p>{`Made with <3`}</p>
           </div>
         </footer>

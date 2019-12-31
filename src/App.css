@@ -8,3 +8,11 @@ img{
   max-height: 100%;
 }
 
+p{
+    min-height: 15px;
+}
+
+.public-DraftEditor-content{
+    max-height: 100px;
+    overflow: auto;
+}

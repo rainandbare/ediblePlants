@@ -1,12 +1,13 @@
 import React from 'react'
-import usePlantList from '../hooks/usePlantList'
 
-function PlantList (){
-    const plantList = usePlantList();
+function PlantList (props){
+    const takeMeThere = (id) => {
+        props.history.push(`/plant/${id}`)
+    }
     return(
         <section className="section">
             <div className="container">
-                <table className="table is-striped is-narrow is-fullwidth">
+                <table className="table is-striped is-narrow is-fullwidth is-hoverable">
                     <thead>
                         <th>Name</th>
                         <th>Scientific Name</th>
@@ -14,12 +15,12 @@ function PlantList (){
                         <th>Image</th>
                     </thead>
                     <tbody>
-                    {plantList.map((plantSpec) => {
+                    {props.plantList.map((plantSpec) => {
                         return (
-                            <tr key={plantSpec.id}>
+                            <tr onClick={() => takeMeThere(plantSpec.id)} key={plantSpec.id}>
                                 <td>{plantSpec.name}</td>
-                                <td>Lorem ipsum dolor</td>
-                                <td>Spring</td>
+                                <td>{plantSpec.scientific}</td>
+                                <td>{plantSpec.season}</td>
                                 <td><figure className="image is-128x128"><img src={plantSpec.fileUrl} alt="" /></figure></td>
                             </tr>
                         )
